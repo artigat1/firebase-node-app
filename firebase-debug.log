@@ -1,0 +1,36 @@
+[debug] [2018-10-04T07:54:09.492Z] ----------------------------------------------------------------------
+[debug] [2018-10-04T07:54:09.495Z] Command:       C:\Program Files\nodejs\node.exe C:\Projects\playground\firebase-node-app\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-10-04T07:54:09.495Z] CLI Version:   4.2.1
+[debug] [2018-10-04T07:54:09.495Z] Platform:      win32
+[debug] [2018-10-04T07:54:09.495Z] Node Version:  v9.3.0
+[debug] [2018-10-04T07:54:09.496Z] Time:          Thu Oct 04 2018 08:54:09 GMT+0100 (GMT Summer Time)
+[debug] [2018-10-04T07:54:09.496Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-04T07:54:09.510Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-04T07:54:09.511Z] > authorizing via signed-in user
+[debug] [2018-10-04T07:54:09.514Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nodejs-test-61ca7  
+ 
+[debug] [2018-10-04T07:54:10.065Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-04T07:54:10.066Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/nodejs-test-61ca7  
+ 
+[debug] [2018-10-04T07:54:10.760Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\playground\firebase-node-app'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-04T07:54:11.446Z] Fetching environment
+[debug] [2018-10-04T07:54:11.449Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/446241084098:getServerAppConfig  
+ 
+[debug] [2018-10-04T07:54:11.449Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/446241084098/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-04T07:54:11.621Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-04T07:54:11.622Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-04T07:54:11.664Z] <<< HTTP RESPONSE 200
+[info] i  hosting[nodejs-test-61ca7]: Serving hosting files from: public
+[info] +  hosting[nodejs-test-61ca7]: Local server: http://localhost:5000
+[debug] [2018-10-04T07:54:13.692Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/nodejs-test-61ca7/us-central1/app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
