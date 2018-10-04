@@ -2,7 +2,8 @@
     "name": "firebase-node-app",
     "version": "1.0.0",
     "scripts": {
-        "serve": "firebase serve --only functions,hosting"
+        "serve": "firebase serve --only functions,hosting",
+        "deploy": "firebase deploy"
     },
     "dependencies": {
         
