@@ -8,6 +8,7 @@
 # dependencies
 /node_modules
 /functions/node_modules
+/functions/lib
 
 # IDEs and editors
 /.idea
@@ -46,3 +47,5 @@ junit.xml
 .idea/workspace.xml
 firebase-debug.log
 firebase-debug.log
+*.log
+functions/lib/index.js
